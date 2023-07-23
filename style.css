@@ -1,0 +1,1172 @@
+/* Main HTML*/
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #221A37;
+    font-family: "Arial", sans-serif;
+    color: #E8E8E8;
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    zoom: 1;
+
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+/* End of Main HTML*/
+
+
+
+/* Navigation */
+.navigation-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100; 
+    margin-top: 1%
+  }
+  
+
+
+.navigation-bar-text button{
+    color: var(--text-white, #E8E8E8);
+    font-family: Alata;
+    font-size: 1vw;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 10%;
+
+}
+
+.navigation-bar-text{
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+}
+
+
+.contact-button{
+    border-radius: 22px;
+    background: var(--button-background, #402166);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+    padding: 2% 7%;
+    justify-content: center;
+    align-items: center;
+}
+/* End of Navigation */
+
+
+
+
+/* Intro Section */
+.entire-welcome-container{
+  margin-right: 3.5%
+}
+
+
+
+.intro-text{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    
+}
+
+.welcome-text,
+.keona-abad,
+.web-developer,
+.brief-about-me{
+    font-family: Philosopher;
+    color: white
+}
+
+.keona-abad{
+  margin-top: 4%
+}
+.name-and-occupation{
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.name-and-occupation h2 {
+    margin-bottom: -8%; 
+
+}
+
+
+.name-and-occupation h2{
+    font-size: 450%
+}
+
+  
+
+.brief-about-me{
+    text-align:center;
+    margin-top: 9%;
+    font-size: 150%
+}
+
+.welcome-text{
+    margin-bottom: -1.5%
+}
+
+.welcome-button {
+    position: relative;
+  }
+  
+  .welcome-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+  }
+  
+  .welcome-text {
+    font-family: Philosopher;
+    color: white;
+    text-align: center;
+    z-index: 1;
+  }
+  
+
+.intro-text{
+    display:flex;
+    margin-left: 60%;
+    margin-top: 14%
+}
+/* End of Intro Section */
+  
+
+
+
+/* Earth Planets and Spaceman */
+  .earth-and-spaceman-position {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 0%;
+    margin-bottom: -1%
+    
+  }
+  
+  .earth-and-spaceman {
+    position: relative;
+  }
+  
+  .spaceman {
+    position: absolute;
+    top: -12.5%; /* Adjust the top value as needed */
+    left: 14%; /* Adjust the left value as needed */
+    z-index: 2; /* Ensure the spaceman is above the earth image */
+  }
+  
+
+
+ .star-image{
+    margin-left: 10%;
+    margin-top: 15%
+  }
+
+  .red-planet-image{
+    margin-left: 200%;
+    margin-top: 60%
+  }
+
+  .purple-planet-image{
+    margin-left: 400%;
+    margin-top: 10%
+  }
+
+  .random-planets{
+    position: fixed
+  }
+
+  .background-stars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    mix-blend-mode: soft-light;
+  }
+/* End of Earth Planets and Spaceman */
+
+
+
+
+
+/* About Me Section */
+
+.about-me-block{
+    width: 800.208px;
+    height: 560.362px;
+    transform: rotate(90.113deg);
+    flex-shrink: 0;
+    border: 3px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    position: absolute;
+    right: 1%;
+    top: 258%;
+}
+
+.about-me-paragraph-text {
+    transform: rotate(-90.113deg);
+    position: absolute;
+    top: -150px;
+    left: 160px;
+   
+  }
+
+
+.front-end-developer-text{
+    color: var(--text-white, #E8E8E8);
+    font-family: Philosopher;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.design-and-development-text{
+    width: 137.697px;
+    color: var(--text-gray, #575757);
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Philosopher;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline
+}
+
+.design-and-development-placement{
+    margin-top: -27px;
+}
+
+.my-name-is-keona-text{
+    width: 518.389px;
+    height: 644px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Philosopher;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 158.5%; 
+}
+
+.my-name-is-keona-placement{
+    margin-top: 25px
+}
+
+.vector-up{
+    position: absolute;
+    right: -2%;
+    top: -3%
+}
+
+.vector-down{
+    position: absolute;
+    left: -2%;
+    bottom:-3%
+}
+/* End of about me*/
+
+
+
+/* Resume Section*/
+  .entire-resume-container {
+    width: 800.208px;
+    height: 560.362px;
+    transform: rotate(90.113deg);
+    flex-shrink: 0;
+    border: 3px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    position: absolute;
+    right: 1%;
+    margin-top: 3700px;
+  }
+  
+
+
+  .vector-up2 {
+    position: absolute;
+    top: -3%;
+    right: -2%;
+  }
+  
+  .vector-down2 {
+    position: absolute;
+    bottom: -3%;
+    left: -2%;
+  }
+  
+  .entire-resume-layout-block {
+    position: relative;
+    transform: rotate(-90deg); 
+    margin-right: 480px; 
+    right: -30%
+}
+
+.resume-layout{
+  margin-bottom: 150px
+}
+
+.date-on-resume-text{
+color: var(--accent-purple, #5D3974);
+text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+font-family: Philosopher;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; 
+}
+
+.location-or-place-text{
+    color: var(--text-gray, #575757);
+    text-align: right;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: Philosopher;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0px; 
+    width: 104px;
+    flex-shrink: 0;
+     align-self: stretch;
+}
+
+.date-on-resume-text-spacing{
+    margin-bottom: 25px;
+    margin-left: 53px
+}
+
+
+.location-or-place-text-spacing{
+    margin-left: 26.7px
+}
+
+.left-side-of-line{
+    margin-left: -140px;
+    margin-top: -225px
+}
+
+.resume-layout-placement{
+    margin-top: -100px;
+    margin-left: -55px;
+}
+
+
+
+
+.description-header-text{
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%; 
+}
+
+
+.description-base-text{
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%; /* 15.85px */
+}
+
+.description-header{
+  margin-left: 26px
+}
+
+.right-side-of-line{
+  margin-top: -38px
+}
+
+
+.resume-layout2{
+  margin-bottom: 150px
+}
+
+.date-on-resume-text2 {
+  color: var(--accent-purple, #5D3974);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.location-or-place-text2 {
+  color: var(--text-gray, #575757);
+  text-align: right;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  width: 104px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.date-on-resume-text-spacing2 {
+  margin-bottom: 25px;
+  margin-left: 53px;
+}
+
+.location-or-place-text-spacing2 {
+  margin-left: 26.7px;
+}
+
+.left-side-of-line2 {
+  margin-left: -140px;
+  margin-top: -225px;
+}
+
+.resume-layout-placement2 {
+  margin-top: -100px;
+  margin-left: -55px;
+}
+
+.description-header-text2 {
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%;
+}
+
+.description-base-text2 {
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%; 
+}
+
+.description-header2 {
+  margin-left: 26px;
+}
+
+.right-side-of-line2 {
+  margin-top: -38px;
+}
+
+
+
+.date-on-resume-text3 {
+  color: var(--accent-purple, #5D3974);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+}
+
+.location-or-place-text3 {
+  color: var(--text-gray, #575757);
+  text-align: right;
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  width: 104px;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+
+.date-on-resume-text-spacing3 {
+  margin-bottom: 25px;
+  margin-left: 53px;
+}
+
+.location-or-place-text-spacing3 {
+  margin-left: 26.7px;
+}
+
+.left-side-of-line3 {
+  margin-left: -140px;
+  margin-top: -225px;
+}
+
+.resume-layout-placement3 {
+  margin-top: -100px;
+  margin-left: -55px;
+}
+
+.description-header-text3 {
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%;
+}
+
+.description-base-text3 {
+  color: var(--text-white, #E8E8E8);
+  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: Philosopher;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 158.5%; 
+}
+
+.description-header3 {
+  margin-left: 26px;
+}
+
+.right-side-of-line3 {
+  margin-top: -38px;
+}
+/* End of Resume*/
+
+
+/* Projects Section*/
+.entire-projects-layout-block {
+  position: absolute;
+  top: 53%;
+  left: -9%;
+}
+
+.project-one-box {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 5500px;
+}
+
+.clear-box-behind-text {
+  width: 541px;
+  height: 160.884px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.learn-more-box {
+  display: flex;
+  width: 130.377px;
+  height: px; /* Update the desired height */
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.project-description-text {
+  width: 526.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.project-title-text {
+  width: 196.843px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.learn-more-text {
+  color: var(--text-white, #E8E8E8);
+  font-family: Alata;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.project-title-placement {
+  margin-left: 160px;
+}
+
+.learn-more-placement {
+  margin-left: 233px;
+  margin-top: -27px;
+}
+
+.clear-box-behind-text {
+  margin-top: -145px;
+}
+
+.learn-more-box {
+  margin-left: 181px;
+  margin-top: -52px;
+}
+
+.project-description-placement {
+  margin-top: -20px;
+}
+
+.shape-placement-hold {
+  margin-top: 9000px;
+}
+
+
+.entire-projects-layout-block2 {
+  position: absolute;
+  top: 60%; 
+}
+
+.project-one-box2 {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 5700px;
+}
+
+.clear-box-behind-text2 {
+  width: 541px;
+  height: 160.884px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.learn-more-box2 {
+  display: flex;
+  width: 130.377px;
+  height: px; 
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.project-description-text2 {
+  width: 526.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.project-title-text2 {
+  width: 196.843px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.learn-more-text2 {
+  color: var(--text-white, #E8E8E8);
+  font-family: Alata;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.project-title-placement2 {
+  margin-left: 160px;
+}
+
+.learn-more-placement2 {
+  margin-left: 233px;
+  margin-top: -27px;
+}
+
+.clear-box-behind-text2 {
+  margin-top: -145px;
+}
+
+.learn-more-box2 {
+  margin-left: 181px;
+  margin-top: -52px;
+}
+
+.project-description-placement2 {
+  margin-top: -20px;
+}
+
+.shape-placement-hold2 {
+  margin-top: 9000px;
+}
+
+
+.entire-projects-layout-block3 {
+  position: absolute;
+  top: 53%;
+}
+
+.project-one-box3 {
+  position: absolute;
+  margin-left: 1150px;
+  margin-top: 5900px;
+}
+
+.clear-box-behind-text3 {
+  width: 541px;
+  height: 160.884px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.learn-more-box3 {
+  display: flex;
+  width: 130.377px;
+  height: px; 
+  padding: 12px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  border-radius: 26px;
+  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+}
+
+.project-description-text3 {
+  width: 526.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.project-title-text3 {
+  width: 196.843px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+}
+
+.learn-more-text3 {
+  color: var(--text-white, #E8E8E8);
+  font-family: Alata;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.project-title-placement3 {
+  margin-left: 160px;
+}
+
+.learn-more-placement3 {
+  margin-left: 233px;
+  margin-top: -27px;
+}
+
+.clear-box-behind-text3 {
+  margin-top: -145px;
+}
+
+.learn-more-box3 {
+  margin-left: 181px;
+  margin-top: -52px;
+}
+
+.project-description-placement3 {
+  margin-top: -20px;
+}
+
+
+
+
+.entire-projects-layout-block{
+    margin-left: 130px
+  }
+/* End of Projects Section*/
+
+
+
+
+/* Courses Section*/
+.all-courses-block-container{
+    position: relative;
+    margin-left: 900px;
+    top: 450%
+  
+}
+
+  
+.course-block-1{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-1-text{
+    color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.5%; 
+margin-top: 40px;
+}
+
+.course-block-2{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-3{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-4{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+
+.course-block-5{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-6{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-7{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-8{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+.course-block-row-2{
+    margin-left: 300px;
+    margin-top: -500px
+}
+
+
+.course-block-9{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-10{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-11{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+    margin-bottom: 15px
+}
+.course-block-12{
+    width: 220.339px;
+    height: 110px;
+    flex-shrink: 0;
+    border: 2px solid #CEB7FF;
+    background: rgba(0, 0, 0, 0.30);
+}
+
+.course-block-row-3{
+    margin-left: 600px;
+    margin-top: -500px
+
+}
+
+.all-courses-block-container{
+    margin-top: 2700px;
+    margin-bottom: -1900px
+}
+/* End of Courses Section*/
+
+
+/* Contact Me Section*/
+.entire-contact-me-containter{
+  position: absolute;
+    padding-bottom: 350px;
+    top: 650%
+
+}
+
+
+  .contact-me-text-edit{
+    text-shadow: 0px 0px 5px 0px #B377FF;
+    font-family: Philosopher;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 1200px;
+    margin-top: 3000px
+  }
+
+
+
+.contact-me-top-rectangle{
+    width: 340px;
+    height: 16px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #CEB7FF;
+    filter: drop-shadow(0px 0px 4px #CEB7FF);
+    margin-left: 1170px;
+    margin-bottom: 100px
+
+}
+
+
+
+
+.contact-me-bottom-rectangle{
+    width: 340px;
+    height: 16px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #CEB7FF;
+    filter: drop-shadow(0px 0px 4px #CEB7FF);
+    margin-left: 1170px;
+    
+   
+}
+
+.both-contact-me-rectangles{
+    margin-top: -100px
+}
+
+
+.email-box{
+
+width: 676px;
+height: 51px;
+flex-shrink: 0;
+opacity: 0.30000001192092896;
+background: #CEB7FF;
+margin-left: 1000px;
+margin-top: 55px
+}
+
+.subject-box{
+    width: 676px;
+    height: 51px;
+    flex-shrink: 0;
+    opacity: 0.30000001192092896;
+    background: #CEB7FF;
+    margin-left: 1000px;
+    margin-top: 55px
+}
+
+.content-box{
+    width: 676px;
+    height: 225px;
+    flex-shrink: 0;
+    opacity: 0.30000001192092896;
+    background: #CEB7FF;
+    margin-left: 1000px;
+    margin-top: 55px
+
+}
+
+.email-text{
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 830px;
+    margin-top: -436px;
+
+}
+
+.example-email-text{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    padding-top: 10px
+    
+    
+}
+
+.subject-text{
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 795px;
+    margin-top: 65px
+}
+
+.example-subject-text{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    padding-top: 10px
+    
+}
+
+.content-text{
+    color: #FFF;
+    font-family: Philosopher;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 778px;
+    margin-top: 70px
+}
+
+.content-example-text{
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 10px;
+    padding-top: 10px
+}
+/* End of Contact Me Section*/
+
+
+/* Coding Images */
+.html-stack-sizing{
+    height: auto;
+    width: 50px;
+    margin-left: 984px;
+    margin-top: 65px;
+}
+
+.css-stack-sizing{
+    height: auto;
+    width: 50px;
+}
+
+.java-script-stack-sizing{
+    height: auto;
+    width: 75px;
+    margin-left: -10px;
+    
+    
+}
+/* End of Coding Images */
+
+
