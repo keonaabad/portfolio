@@ -216,6 +216,7 @@ html, body {
     position: absolute;
     right: 6%;
     top: 240%;
+
 }
 
 .about-me-paragraph-text {
@@ -1050,3 +1051,68 @@ margin-top: 55px
 /* End of Coding Images */
 
 
+
+
+
+
+@media (max-width: 1000px) {
+/* Earth Planets and Spaceman */
+.earth-and-spaceman-position {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  margin-left: 0%;
+  margin-bottom: -1%
+  
+}
+
+.earth-and-spaceman {
+  display: none;
+  position: relative;
+}
+
+.spaceman {
+  display: none;
+  position: absolute;
+  top: -12.5%; 
+  left: 14%; 
+  z-index: 2; 
+}
+
+
+.star-image{
+  margin-left: 10%;
+  margin-top: 15%
+}
+
+.red-planet-image{
+  display: none;
+  margin-left: 200%;
+  margin-top: 60%
+}
+
+.purple-planet-image{
+  display: none;
+  margin-left: 400%;
+  margin-top: 10%
+}
+
+.random-planets{
+  display: none;
+  position: fixed
+}
+
+.background-stars {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  mix-blend-mode: soft-light;
+}
+/* End of Earth Planets and Spaceman */
+
+
+  
+}
