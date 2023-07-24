@@ -206,8 +206,8 @@ html, body {
 /* About Me Section */
 
 .about-me-block{
-    width: 560.362px;
-    height: 800.208px;
+    width: 646.362px;
+    height: 89%;
     flex-shrink: 0;
     border: 3px solid #CEB7FF;
     background: rgba(0, 0, 0, 0.30);
@@ -238,7 +238,7 @@ html, body {
     color: var(--text-gray, #575757);
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Philosopher;
-    font-size: 14px;
+    font-size: 17px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -250,13 +250,13 @@ html, body {
 }
 
 .my-name-is-keona-text{
-    width: 518.389px;
+    width: 640.389px;
     height: 644px;
     flex-shrink: 0;
     color: #FFF;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Philosopher;
-    font-size: 14px;
+    font-size: 16.5px;
     font-style: normal;
     font-weight: 400;
     line-height: 158.5%; 
@@ -290,11 +290,16 @@ html, body {
     border: 3px solid #CEB7FF;
     background: rgba(0, 0, 0, 0.30);
     position: absolute;
-    right: 1%;
+    right: 2%;
     margin-top: 3700px;
   }
   
-
+  .entire-resume-layout-block {
+    position: relative;
+    transform: rotate(-90deg); 
+    margin-right: 480px; 
+    right: -30%
+}
 
   .vector-up2 {
     position: absolute;
@@ -308,12 +313,7 @@ html, body {
     left: -2%;
   }
   
-  .entire-resume-layout-block {
-    position: relative;
-    transform: rotate(-90deg); 
-    margin-right: 480px; 
-    right: -30%
-}
+
 
 .resume-layout{
   margin-bottom: 150px
@@ -550,7 +550,7 @@ line-height: 0px;
 .entire-projects-layout-block {
   position: absolute;
   top: 53%;
-  left: -9%;
+  right: 30%;
 }
 
 .project-one-box {
@@ -842,7 +842,7 @@ line-height: 0px;
 /* Courses Section*/
 .all-courses-block-container{
     position: relative;
-    margin-left: 900px;
+    left: 340%;
     top: 450%
   
 }
@@ -979,7 +979,8 @@ margin-top: 40px;
 .entire-contact-me-containter{
   position: absolute;
     padding-bottom: 350px;
-    top: 650%
+    top: 200%;
+    left: 80%
 
 }
 
