@@ -31,16 +31,15 @@
 
 <!-- Navigation -->
 <div class="navigation-bar">
-    <nav>
-        <div class="navigation-bar-text"> 
-            <button class="about-button">About</button>
-            <button class="resume-button">Resume</button>
-            <button class="projects-button">Projects</button>
-            <button class="courses-button">Courses</button>
-            <button class="contact-button">Contact</button>
-        </div>
-
-    </nav>
+        <nav>
+          <div class="navigation-bar-text"> 
+            <a class="about-button" href="#About">About</a> 
+            <a class="resume-button" href="#Resume">Resume</a>
+            <a class="projects-button" href="#Projects">Projects</a>
+            <a class="courses-button" href="#Courses">Courses</a>
+            <a class="contact-button" href="#Contact">Contact</a>
+        </nav>
+      </div>
 </div>
 
 
@@ -49,7 +48,11 @@
 
 <!-- Planet Images -->
 <div class="random-planets">      
-  <div class="star-image"><img src="star2.png"></div>
+  <a href="#Top-of-Page" class="star-click">
+    <div class="star-image">
+      <img src="star2.png" alt="Star Image">
+    </div>
+  </a>
   <div class="red-planet-image" > <img src="Planet-13.png"> </div>
   <div class="purple-planet-image"><img src="Planet-8.png"> </div>
 </div>
@@ -65,6 +68,7 @@
 
 
 <!-- Welcoming Text on Home Page -->
+<section id="Top-of-Page"></section>
 <div class="entire-welcome-container">
   <div class="intro-text">
     <button class="welcome-button">
@@ -115,7 +119,8 @@
 
 
 <!-- About -->
-<div class="about-me-block">
+<section id="About" class="about-section"></section>
+  <div class="about-me-block">
     <div class="about-me-paragraph-text">
         <div><h1 class="front-end-developer-text">Front-End <br>Developer</h1></div>
         <div class="design-and-development-placement"><h3 class="design-and-development-text">Design and Development</h3></div>
@@ -145,6 +150,8 @@
     
 
 
+
+
       
 
 
@@ -153,6 +160,7 @@
 
             
   <!-- Resume -->
+  <section id="Resume" class="resume-section"></section>
   <div class="entire-resume-container"> 
     <div class="entire-resume-layout-block">
       <div class="resume-layout">
@@ -223,6 +231,7 @@
 
 
 <!-- Projects -->
+<section id="Projects" class="projects-section"></section>
 <div class="entire-projects-layout-block">
   <div class="project-one-box">
     <div class="full-project-box-text">
@@ -296,6 +305,7 @@
 
 
 <!-- Courses -->
+<section id="Courses" class="courses-section"></section>
 <div class="all-courses-block-container">
   <div class="course-block-row-1">
       <div class="course-block-1"><div class="course-block-1-text">CS 101</div></div>
@@ -321,6 +331,7 @@
 
 
 <!-- Contact Me -->
+<section id="Contact" class="contact-section"></section>
 <div class="entire-contact-me-containter">
   <div class="contact-me-with-lines">
       <div class="contact-me-text-edit">Contact Me </div>

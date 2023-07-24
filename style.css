@@ -22,6 +22,11 @@ html, body {
     padding: 0;
     height: 100%;
   }
+  
+
+  a {
+    text-decoration: none;
+  }
 /* End of Main HTML*/
 
 
@@ -29,7 +34,7 @@ html, body {
 /* Navigation */
 .navigation-bar {
     position: fixed;
-    top: 0;
+    top: 1%;
     left: 0;
     right: 0;
     display: flex;
@@ -40,7 +45,11 @@ html, body {
   }
   
 
-
+.about-button,
+.resume-button,
+.projects-button,
+.courses-button,
+.contact-button,
 .navigation-bar-text button{
     color: var(--text-white, #E8E8E8);
     font-family: Alata;
@@ -66,6 +75,7 @@ html, body {
     padding: 8px 20px;
     justify-content: center;
     align-items: center;
+    margin-top: -2.5%
 }
 /* End of Navigation */
 
@@ -172,6 +182,7 @@ html, body {
  .star-image{
     margin-left: 10%;
     margin-top: 15%
+    
   }
 
   .red-planet-image{
@@ -204,7 +215,9 @@ html, body {
 
 
 /* About Me Section */
-
+.about-section{
+  margin-top: 85%
+}
 .about-me-block{
     width: 42%;
     min-height: 82%;
@@ -282,6 +295,11 @@ html, body {
 
 
 /* Resume Section*/
+
+.resume-section{
+  margin-top: 207%
+}
+
 .entire-resume-container {
   width: 600px;
   height: 750px;
@@ -451,6 +469,11 @@ line-height: 0px;
 
 
 /* Projects Section*/
+.projects-section{
+  margin-top: 305%
+}
+
+
 .entire-projects-layout-block {
   position: absolute;
   top: 680%;
@@ -735,6 +758,11 @@ line-height: 0px;
 
 
 /* Courses Section*/
+.courses-section{
+  margin-top: 375%
+}
+
+
 .all-courses-block-container{
   position: absolute;
     right: 6%;
@@ -871,6 +899,11 @@ margin-top: 40px;
 
 
 /* Contact Me Section*/
+.contact-section{
+  margin-top: 8600px
+}
+
+
 .entire-contact-me-containter{
   position: absolute;
   padding-bottom: 350px;
