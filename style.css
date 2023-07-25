@@ -208,7 +208,7 @@ html, body {
   .earth-and-spaceman {
     position: relative;
   }
-  
+
   .spaceman {
     position: absolute;
     top: -12.5%; 
@@ -254,7 +254,7 @@ html, body {
 
 /* About Me Section */
 .about-section{
-  margin-top: 1645px
+  margin-top: 1670px
 }
 .about-me-block{
     width: 42%;
@@ -335,7 +335,7 @@ html, body {
 /* Resume Section*/
 
 .resume-section{
-  margin-top: 3955px;
+  margin-top: 4010px;
 }
 
 .entire-resume-container {
@@ -508,7 +508,7 @@ line-height: 0px;
 
 /* Projects Section*/
 .projects-section{
-  margin-top: 5795px
+  margin-top: 5895px
 }
 
 
@@ -797,7 +797,7 @@ line-height: 0px;
 
 /* Courses Section*/
 .courses-section{
-  margin-top: 7195px
+  margin-top: 7295px
 }
 
 
@@ -938,15 +938,16 @@ margin-top: 40px;
 
 /* Contact Me Section*/
 .contact-section{
-  margin-top: 8600px
+  margin-top: 9600px
 }
 
 
 .entire-contact-me-containter{
   position: absolute;
-  padding-bottom: 350px;
+  padding-bottom: 355px;
   top: 659%;
-  right: 6%
+  right: 6%;
+  margin-left: 5555px
 }
 
 
@@ -996,34 +997,78 @@ margin-top: 40px;
 
 
 .email-box{
+  width: 676px;
+  height: 51px;
+  flex-shrink: 0;
+  opacity: 0.3;
+  background: #CEB7FF;
+  margin-left: 1000px;
+  margin-top: 55px;
+  padding: 10px;
+  color: #000000;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px; 
+}
 
-width: 676px;
-height: 51px;
-flex-shrink: 0;
-opacity: 0.30000001192092896;
-background: #CEB7FF;
-margin-left: 1000px;
-margin-top: 55px
+
+.email-box::placeholder{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .subject-box{
-    width: 676px;
-    height: 51px;
-    flex-shrink: 0;
-    opacity: 0.30000001192092896;
-    background: #CEB7FF;
-    margin-left: 1000px;
-    margin-top: 55px
+  width: 676px;
+  height: 51px;
+  flex-shrink: 0;
+  opacity: 0.3;
+  background: #CEB7FF;
+  margin-left: 1000px;
+  margin-top: 55px;
+  padding: 10px;
+  color: #000000;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 51px; 
 }
-
+.subject-box::placeholder{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 .content-box{
     width: 676px;
     height: 225px;
     flex-shrink: 0;
-    opacity: 0.30000001192092896;
+    opacity: 0.3;
     background: #CEB7FF;
     margin-left: 1000px;
-    margin-top: 55px
+    margin-top: 55px;
+    padding: 10px;
+    color: #000000;
+    font-family: Bebas Neue;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.content-box::placeholder{
+  color: #FFF;
+  font-family: Bebas Neue;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
 
 }
 
@@ -1035,7 +1080,7 @@ margin-top: 55px
     font-weight: 400;
     line-height: normal;
     margin-left: 830px;
-    margin-top: -436px;
+    margin-top: -585px;
 
 }
 
@@ -1060,7 +1105,7 @@ margin-top: 55px
     font-weight: 400;
     line-height: normal;
     margin-left: 795px;
-    margin-top: 65px
+    margin-top: 90px
 }
 
 .example-subject-text{
@@ -1083,7 +1128,7 @@ margin-top: 55px
     font-weight: 400;
     line-height: normal;
     margin-left: 778px;
-    margin-top: 70px
+    margin-top: 85px
 }
 
 .content-example-text{
@@ -1095,6 +1140,23 @@ margin-top: 55px
     line-height: normal;
     margin-left: 10px;
     padding-top: 10px
+}
+
+
+.send-email-button{
+  color: #FFF;
+  font-family: Philosopher;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 22px;
+  background: var(--button-background, #ceb7ff4d);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  padding: 8px 20px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1545px;
+  margin-top: 15px;
 }
 /* End of Contact Me Section*/
 
