@@ -45,12 +45,8 @@ html, body {
   }
   
 
-.about-button,
-.resume-button,
-.projects-button,
-.courses-button,
-.contact-button,
-.navigation-bar-text button{
+
+.contact-button{
     color: var(--text-white, #E8E8E8);
     font-family: Alata;
     font-size: 16px;
@@ -58,8 +54,50 @@ html, body {
     font-weight: 400;
     line-height: normal;
     margin-right: 10%;
-
 }
+
+
+.about-button,
+.resume-button,
+.projects-button,
+.courses-button,
+.navigation-bar-text button {
+  color: var(--text-white, #E8E8E8);
+  font-family: Alata;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: 10%;
+  position: relative; 
+}
+
+
+.about-button::before,
+.resume-button::before,
+.projects-button::before,
+.courses-button::before,
+.navigation-bar-text button::before {
+  content: ""; 
+  position: absolute;
+  top: -15%;
+  left: -25%;
+  width: 150%;
+  height: 110%;
+  background-color: #40216698; 
+  z-index: -1; 
+  border-radius: 15px; 
+  display: none; 
+}
+
+.about-button:hover::before,
+.resume-button:hover::before,
+.projects-button:hover::before,
+.courses-button:hover::before,
+.navigation-bar-text button:not(.contact-button):hover::before {
+  display: block;
+}
+
 
 .navigation-bar-text{
   display: flex;
@@ -216,7 +254,7 @@ html, body {
 
 /* About Me Section */
 .about-section{
-  margin-top: 1655px
+  margin-top: 1645px
 }
 .about-me-block{
     width: 42%;
