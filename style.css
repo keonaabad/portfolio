@@ -270,6 +270,7 @@ html, body {
 
 }
 
+
 .about-me-paragraph-text {
     margin-left: 20px;
    
@@ -808,15 +809,19 @@ line-height: 0px;
   
 }
 
-  
 .course-block-1{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
+  width: 220.339px;
+  height: 110px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+  margin-bottom: 15px;
 }
+
+.course-block-1:hover{
+  background: rgba(190, 27, 27, 0.3)
+}
+
 .course-block-1-text{
     color: #FFF;
 text-align: center;
@@ -836,6 +841,8 @@ margin-top: 40px;
     background: rgba(0, 0, 0, 0.30);
     margin-bottom: 15px
 }
+
+
 .course-block-3{
     width: 220.339px;
     height: 110px;
@@ -1157,6 +1164,10 @@ margin-top: 40px;
   align-items: center;
   margin-left: 1545px;
   margin-top: 15px;
+}
+
+.send-email-button:hover{
+  background: var(--button-background, #ceb7ff94);
 }
 /* End of Contact Me Section*/
 
