@@ -234,7 +234,8 @@ html, body {
   }
 
   .random-planets{
-    position: fixed
+    position: fixed;
+    top: 0px
   }
 
   .background-stars {
@@ -317,18 +318,6 @@ html, body {
 .my-name-is-keona-placement{
     margin-top: 25px
 }
-
-.vector-up{
-    position: absolute;
-    right: -3%;
-    top: -3%
-}
-
-.vector-down{
-    position: absolute;
-    left: -3%;
-    bottom:-3%
-}
 /* End of about me*/
 
 
@@ -342,14 +331,14 @@ html, body {
 .entire-resume-container {
   width: 600px;
   height: 750px;
-    display: flex; /* Use flexbox */
-    flex-direction: column; /* Stack elements vertically */
-    align-items: flex-start; /* Align children to the start (left) */
-    border: 3px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    position: absolute;
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align children to the start (left) */
+  border: 3px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+  position: absolute;
   right: 6%;
-  top: 480%;
+
 }
 .resume-layout {
   margin-bottom: 35px;
@@ -515,8 +504,7 @@ line-height: 0px;
 
 .entire-projects-layout-block {
   position: absolute;
-  top: 680%;
-  right: 6%;
+  right: 6%
 }
 
 .project-one-box2{
@@ -805,8 +793,6 @@ line-height: 0px;
 .all-courses-block-container{
   position: absolute;
     right: 6%;
-    top: 550%
-  
 }
 
 .course-block-1{
@@ -818,8 +804,19 @@ line-height: 0px;
   margin-bottom: 15px;
 }
 
-.course-block-1:hover{
-  background: rgba(190, 27, 27, 0.3)
+.course-block-1:hover,
+.course-block-2:hover,
+.course-block-3:hover,
+.course-block-4:hover,
+.course-block-5:hover,
+.course-block-6:hover,
+.course-block-7:hover,
+.course-block-8:hover,
+.course-block-9:hover,
+.course-block-10:hover,
+.course-block-11:hover,
+.course-block-12:hover{
+  background: #ceb7ff13
 }
 
 .course-block-1-text{
@@ -936,10 +933,7 @@ margin-top: 40px;
 
 }
 
-.all-courses-block-container{
-    margin-top: 2700px;
-    margin-bottom: -1900px
-}
+
 /* End of Courses Section*/
 
 
@@ -952,7 +946,6 @@ margin-top: 40px;
 .entire-contact-me-containter{
   position: absolute;
   padding-bottom: 355px;
-  top: 659%;
   right: 6%;
   margin-left: 5555px
 }
@@ -966,7 +959,7 @@ margin-top: 40px;
     font-weight: 400;
     line-height: normal;
     margin-left: 1200px;
-    margin-top: 3000px
+
   }
 
 
