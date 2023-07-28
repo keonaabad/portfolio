@@ -852,16 +852,7 @@ font-style: normal;
 font-weight: 400;
 }
 
-.close-button{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
+
 
 .course-block-1-text{
     color: #FFF;
@@ -992,6 +983,269 @@ margin-top: 40px;
   right: 37.5%
 }
 
+.close-button{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-2{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-2{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-3{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-3{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-4{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-4{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-5{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-5{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-6{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-6{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-7{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-7{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-8{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-8{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-9{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-9{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-10{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-10{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-11{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-11{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
+
+.courses-popup-12{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 39.5%
+}
+
+.close-button-12{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
+}
 
 /* Contact Me Section*/
 .contact-section{
