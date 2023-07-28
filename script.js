@@ -8,3 +8,19 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
     });
   });
+
+
+
+  //Popup for courses
+  const courseBlock1 = document.querySelector('.course-block-1');
+  const popup = document.getElementById('popup');
+  const closeButton = document.querySelector('.close-button');
+
+  courseBlock1.addEventListener('click', () => {
+    popup.style.display = 'block';
+  });
+
+  closeButton.addEventListener('click', () => {
+    popup.style.display = 'none';
+  });
+

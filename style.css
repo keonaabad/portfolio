@@ -255,7 +255,7 @@ html, body {
 
 /* About Me Section */
 .about-section{
-  margin-top: 1670px
+  margin-top: 1655px
 }
 .about-me-block{
     width: 42%;
@@ -816,7 +816,51 @@ line-height: 0px;
 .course-block-10:hover,
 .course-block-11:hover,
 .course-block-12:hover{
-  background: #ceb7ff13
+  background: #ceb7ff13;
+  cursor: pointer;
+}
+
+
+.course-name{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.5%; 
+margin-top: 20px;
+}
+
+.course-subject{
+color: #bdb6b6;
+text-align: center;
+font-family: Montserrat;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+margin-top: -10px
+
+}
+
+.course-description{
+color: #FFF;
+text-align: center;
+font-family: Montserrat;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+}
+
+.close-button{
+  color: #FFF;
+  font-family: Montserrat;
+  font-size: 20px;
+  text-decoration: underline;
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 8px
 }
 
 .course-block-1-text{
@@ -932,9 +976,21 @@ margin-top: 40px;
     margin-top: -500px
 
 }
-
-
 /* End of Courses Section*/
+
+
+/*Courses Popups */
+.courses-popup{
+  width: 490px;
+  height: 373px;
+  flex-shrink: 0;
+  border-radius: 45px;
+  border: 2px solid #CEB7FF;
+  background:#14041f;
+  position:absolute;
+  display: none;
+  right: 37.5%
+}
 
 
 /* Contact Me Section*/
@@ -947,7 +1003,7 @@ margin-top: 40px;
   position: absolute;
   padding-bottom: 355px;
   right: 6%;
-  margin-left: 5555px
+
 }
 
 
@@ -1161,6 +1217,7 @@ margin-top: 40px;
 
 .send-email-button:hover{
   background: var(--button-background, #ceb7ff94);
+  cursor: pointer;
 }
 /* End of Contact Me Section*/
 
