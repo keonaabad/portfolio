@@ -29,9 +29,13 @@ html, body {
   }
 /* End of Main HTML*/
 
+.top-of-the-page{
+  position: absolute;
+  bottom: 1000px
 
-
+}
 /* Navigation */
+
 .navigation-bar {
     position: fixed;
     top: 1%;
@@ -49,22 +53,21 @@ html, body {
 .contact-button{
     color: var(--text-white, #E8E8E8);
     font-family: Alata;
-    font-size: 16px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-right: 10%;
 }
 
-
 .about-button,
-.resume-button,
+.home-button,
 .projects-button,
 .courses-button,
 .navigation-bar-text button {
   color: var(--text-white, #E8E8E8);
   font-family: Alata;
-  font-size: 16px;
+  font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -74,7 +77,7 @@ html, body {
 
 
 .about-button::before,
-.resume-button::before,
+.home-button::before,
 .projects-button::before,
 .courses-button::before,
 .navigation-bar-text button::before {
@@ -91,7 +94,7 @@ html, body {
 }
 
 .about-button:hover::before,
-.resume-button:hover::before,
+.home-button:hover::before,
 .projects-button:hover::before,
 .courses-button:hover::before,
 .navigation-bar-text button:not(.contact-button):hover::before {
@@ -102,7 +105,7 @@ html, body {
 .navigation-bar-text{
   display: flex;
   justify-content: flex-end;
-  gap: 5%;
+  gap: 30%;
 }
 
 
@@ -122,7 +125,8 @@ html, body {
 
 /* Intro Section */
 .entire-welcome-container{
-  margin-right: 6%
+  margin-right: 10%;
+
 }
 
 
@@ -136,15 +140,88 @@ html, body {
 
 .welcome-text,
 .keona-abad,
-.web-developer,
 .brief-about-me{
     font-family: Philosopher;
     color: white
 }
 
+.what-i-am{
+  color:#b4b5ec;
+  font-family: Philosopher;
+  
+}
+
+.student-gap{
+  position: relative;
+  top: -6px
+}
+.writer-gap{
+  position: relative;
+  top: -5px
+}
+.wrapper{
+    display: inline-flex;
+    align-items: baseline;
+    margin-left: 140px;
+    margin-top: 10px
+
+}
+
+.wrapper .static-txt{
+    font-family: Philosopher;
+    color: white;
+    font-size: 60px;
+    
+}
+.wrapper .dynamic-txt{
+margin-left: -25px;
+height: 70px;
+line-height: 60px;
+overflow: hidden;
+text-align: left;
+}
+    .dynamic-txt li{
+    list-style: none;
+    color:#b4b5ec;
+    font-family: Philosopher;
+    font-size: 60px;
+    font-weight: 200px;
+    margin-bottom: 25px;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide{
+    100%{
+        top: -330px;
+
+    }
+}
+
+.dynamic-txt li span{
+    position: relative;
+}
+.dynamic-txt li span::after{
+    content:"";
+    position: absolute;
+    height: 100%;
+    left:0;
+    width: 100%;
+    background: #221A37;
+    border-left: 2px solid #b4b5ec;
+    animation: typing 1.5s steps(10) infinite;
+}
+
+@keyframes typing{
+    100%{
+        left: 100%;
+        margin: 0 -45px 0 45px
+    }
+}
+
 .keona-abad{
-  margin-top: 4%;
-  margin-bottom: -52px
+  margin-bottom: -50px
 }
 
 .name-and-occupation{
@@ -155,9 +232,12 @@ html, body {
 }
 
 .brief-about-me{
+  position: relative;
+  z-index: 2;
     text-align:center;
     margin-top: -30px;
-    font-size: 150%
+    font-size: 190%;
+    width: 700px
 }
 
 .welcome-text{
@@ -171,12 +251,24 @@ html, body {
   .welcome-gradient {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-   
+    left: 225px;
   }
   
+
+.welcome-gradient-2 {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  transition: opacity .5s ease;
+}
+
+
+.welcome-gradient:hover .welcome-gradient-2 {
+  opacity: 1;
+}
+
   .welcome-text {
     font-family: Philosopher;
     color: white;
@@ -196,6 +288,11 @@ html, body {
 
 
 /* Earth Planets and Spaceman */
+.earth-image{
+  height: auto;
+  width: 80%
+}
+
   .earth-and-spaceman-position {
     position: fixed;
     bottom: 0;
@@ -211,17 +308,11 @@ html, body {
 
   .spaceman {
     position: absolute;
-    top: -12.5%; 
+    top: -15%; 
     left: 14%; 
     z-index: 2; 
   }
   
-
- .star-image{
-    margin-left: 10%;
-    margin-top: 15%
-    
-  }
 
   .red-planet-image{
     margin-left: 200%;
@@ -255,7 +346,7 @@ html, body {
 
 /* About Me Section */
 .about-section{
-  margin-top: 1655px
+  margin-top: 555px
 }
 .about-me-block{
     width: 42%;
@@ -267,7 +358,7 @@ html, body {
     background: rgba(0, 0, 0, 0.30);
     position: absolute;
     right: 6%;
-    top: 240%;
+    top: 150%
 
 }
 
@@ -292,7 +383,7 @@ html, body {
     color: var(--text-gray, #575757);
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Philosopher;
-    font-size: 17px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -309,7 +400,7 @@ html, body {
     color: #FFF;
     text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     font-family: Philosopher;
-    font-size: 16.5px;
+    font-size: 20.5px;
     font-style: normal;
     font-weight: 400;
     line-height: 158.5%; 
@@ -322,189 +413,16 @@ html, body {
 
 
 
-/* Resume Section*/
-
-.resume-section{
-  margin-top: 4010px;
-}
-
-.entire-resume-container {
-  width: 600px;
-  height: 750px;
-  display: flex; /* Use flexbox */
-  flex-direction: column; /* Stack elements vertically */
-  align-items: flex-start; /* Align children to the start (left) */
-  border: 3px solid #CEB7FF;
-  background: rgba(0, 0, 0, 0.30);
-  position: absolute;
-  right: 6%;
-
-}
-.resume-layout {
-  margin-bottom: 35px;
-  flex-grow: 1; /* Allow the box to expand vertically with the text */
-}
-
-.date-on-resume-text{
-color: var(--accent-purple, #5D3974);
-text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-font-family: Philosopher;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: 0px; 
-}
-
-.location-or-place-text{
-    color: var(--text-gray, #575757);
-    text-align: right;
-    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-family: Philosopher;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 0px; 
-    width: 104px;
-    flex-shrink: 0;
-     align-self: stretch;
-}
-
-.date-on-resume-text-spacing{
-    margin-bottom: 25px;
-    margin-left: 53px
-}
-
-
-.location-or-place-text-spacing{
-    margin-left: 52px
-}
-
-.left-side-of-line{
-    margin-left: -165px;
-    margin-top: -225px
-}
-
-.resume-layout-placement{
-    margin-top: 75px;
-    margin-left: 155px;
-}
-
-
-.description-header-text{
-  color: var(--text-white, #E8E8E8);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 158.5%; 
-}
-
-
-.description-base-text{
-  color: var(--text-white, #E8E8E8);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 158.5%; /* 15.85px */
-}
-
-.description-header{
-  margin-left: 26px
-}
-
-.right-side-of-line{
-  margin-top: -52px
-}
-
-.resume-layout2 {
-  margin-bottom: 350px;
-}
-
-.date-on-resume-text2 {
-  color: var(--accent-purple, #5D3974);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 0;
-}
-
-.location-or-place-text2 {
-  color: var(--text-gray, #575757);
-  text-align: right;
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 0;
-  width: 104px;
-  flex-shrink: 0;
-  align-self: stretch;
-}
-
-.date-on-resume-text-spacing2 {
-  margin-bottom: 25px;
-  margin-left: 53px;
-}
-
-.location-or-place-text-spacing2 {
-  margin-left: 52px;
-}
-
-.left-side-of-line2 {
-  margin-left: -165px;
-  margin-top: -225px;
-}
-
-.resume-layout-placement2 {
-  margin-top: 75px;
-  margin-left: 155px;
-}
-
-.description-header-text2 {
-  color: var(--text-white, #E8E8E8);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 158.5%;
-}
-
-.description-base-text2 {
-  color: var(--text-white, #E8E8E8);
-  text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-family: Philosopher;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 158.5%; /* 15.85px */
-}
-
-.description-header2 {
-  margin-left: 26px;
-}
-
-.right-side-of-line2 {
-  margin-top: -52px;
-}
-/* End of Resume*/
-
-
 /* Projects Section*/
 .projects-section{
-  margin-top: 5895px
+  margin-top: 2895px
 }
 
 
 .entire-projects-layout-block {
   position: absolute;
-  right: 6%
+  right: 6%;
+  top: 450%
 }
 
 .project-one-box2{
@@ -523,19 +441,7 @@ line-height: 0px;
   background: rgba(0, 0, 0, 0.30);
 }
 
-.learn-more-box {
-  display: flex;
-  width: 130.377px;
-  height: px; /* Update the desired height */
-  padding: 12px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-  border-radius: 26px;
-  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
-}
+
 
 .project-description-text {
   width: 526.619px;
@@ -563,32 +469,17 @@ line-height: 0px;
   line-height: 102.5%; 
 }
 
-.learn-more-text {
-  color: var(--text-white, #E8E8E8);
-  font-family: Alata;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .project-title-placement {
   margin-left: 160px;
 }
 
-.learn-more-placement {
-  margin-left: 233px;
-  margin-top: -27px;
-}
+
 
 .clear-box-behind-text {
   margin-top: -145px;
 }
 
-.learn-more-box {
-  margin-left: 181px;
-  margin-top: -52px;
-}
+
 
 .project-description-placement {
   margin-top: -20px;
@@ -696,6 +587,7 @@ line-height: 0px;
 }
 
 
+
 .clear-box-behind-text3 {
   width: 541px;
   height: 160.884px;
@@ -774,478 +666,8 @@ line-height: 0px;
 .project-description-placement3 {
   margin-top: -20px;
 }
-
-
-
-
-
 /* End of Projects Section*/
 
-
-
-
-/* Courses Section*/
-.courses-section{
-  margin-top: 7295px
-}
-
-
-.all-courses-block-container{
-  position: absolute;
-    right: 6%;
-}
-
-.course-block-1{
-  width: 220.339px;
-  height: 110px;
-  flex-shrink: 0;
-  border: 2px solid #CEB7FF;
-  background: rgba(0, 0, 0, 0.30);
-  margin-bottom: 15px;
-}
-
-.course-block-1:hover,
-.course-block-2:hover,
-.course-block-3:hover,
-.course-block-4:hover,
-.course-block-5:hover,
-.course-block-6:hover,
-.course-block-7:hover,
-.course-block-8:hover,
-.course-block-9:hover,
-.course-block-10:hover,
-.course-block-11:hover,
-.course-block-12:hover{
-  background: #ceb7ff13;
-  cursor: pointer;
-}
-
-
-.course-name{
-color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 35px;
-font-style: normal;
-font-weight: 400;
-line-height: 102.5%; 
-margin-top: 20px;
-}
-
-.course-subject{
-color: #bdb6b6;
-text-align: center;
-font-family: Montserrat;
-font-size: 30px;
-font-style: normal;
-font-weight: 400;
-margin-top: -10px
-
-}
-
-.course-description{
-color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 25px;
-font-style: normal;
-font-weight: 400;
-}
-
-
-
-.course-block-1-text{
-    color: #FFF;
-text-align: center;
-font-family: Montserrat;
-font-size: 35px;
-font-style: normal;
-font-weight: 400;
-line-height: 102.5%; 
-margin-top: 40px;
-}
-
-.course-block-2{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-
-
-.course-block-3{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-4{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-}
-
-
-.course-block-5{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-6{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-7{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-8{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-}
-
-.course-block-row-2{
-    margin-left: 300px;
-    margin-top: -500px
-}
-
-
-.course-block-9{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-10{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-11{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-    margin-bottom: 15px
-}
-.course-block-12{
-    width: 220.339px;
-    height: 110px;
-    flex-shrink: 0;
-    border: 2px solid #CEB7FF;
-    background: rgba(0, 0, 0, 0.30);
-}
-
-.course-block-row-3{
-    margin-left: 600px;
-    margin-top: -500px
-
-}
-/* End of Courses Section*/
-
-
-/*Courses Popups */
-.courses-popup{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 37.5%
-}
-
-.close-button{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-2{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-2{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-3{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-3{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-4{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-4{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-5{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-5{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-6{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-6{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-7{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-7{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-8{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-8{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-9{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-9{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-10{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-10{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-11{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-11{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
-
-.courses-popup-12{
-  width: 490px;
-  height: 373px;
-  flex-shrink: 0;
-  border-radius: 45px;
-  border: 2px solid #CEB7FF;
-  background:#14041f;
-  position:absolute;
-  display: none;
-  right: 39.5%
-}
-
-.close-button-12{
-  color: #FFF;
-  font-family: Montserrat;
-  font-size: 20px;
-  text-decoration: underline;
-  cursor: pointer;
-  position: absolute;
-  right: 25px;
-  top: 8px
-}
 
 /* Contact Me Section*/
 .contact-section{
@@ -1255,8 +677,9 @@ margin-top: 40px;
 
 .entire-contact-me-containter{
   position: absolute;
-  padding-bottom: 355px;
-  right: 6%;
+  padding-bottom: 23.5%;
+  top: 600%;
+  right: 4%;
 
 }
 
@@ -1268,7 +691,7 @@ margin-top: 40px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 1200px;
+    margin-left: 1300px;
 
   }
 
@@ -1281,7 +704,7 @@ margin-top: 40px;
     stroke-width: 1px;
     stroke: #CEB7FF;
     filter: drop-shadow(0px 0px 4px #CEB7FF);
-    margin-left: 1170px;
+    margin-left: 1265px;
     margin-bottom: 100px
 
 }
@@ -1296,7 +719,7 @@ margin-top: 40px;
     stroke-width: 1px;
     stroke: #CEB7FF;
     filter: drop-shadow(0px 0px 4px #CEB7FF);
-    margin-left: 1170px;
+    margin-left: 1265px;
     
    
 }
@@ -1307,13 +730,13 @@ margin-top: 40px;
 
 
 .email-box{
-  width: 676px;
+  width: 630px;
   height: 51px;
   flex-shrink: 0;
   opacity: 0.3;
   background: #CEB7FF;
-  margin-left: 1000px;
-  margin-top: 55px;
+  margin-left: 1120px;
+  margin-top: 35px;
   padding: 10px;
   color: #000000;
   font-family: Bebas Neue;
@@ -1325,7 +748,7 @@ margin-top: 40px;
 
 
 .email-box::placeholder{
-  color: #FFF;
+  color: #554e5f;
   font-family: Bebas Neue;
   font-size: 25px;
   font-style: normal;
@@ -1334,13 +757,13 @@ margin-top: 40px;
 }
 
 .subject-box{
-  width: 676px;
+  width: 630px;
   height: 51px;
   flex-shrink: 0;
   opacity: 0.3;
   background: #CEB7FF;
-  margin-left: 1000px;
-  margin-top: 55px;
+  margin-left: 1120px;
+  margin-top: 35px;
   padding: 10px;
   color: #000000;
   font-family: Bebas Neue;
@@ -1350,7 +773,7 @@ margin-top: 40px;
   line-height: 51px; 
 }
 .subject-box::placeholder{
-  color: #FFF;
+  color: #554e5f;
   font-family: Bebas Neue;
   font-size: 25px;
   font-style: normal;
@@ -1358,13 +781,13 @@ margin-top: 40px;
   line-height: normal;
 }
 .content-box{
-    width: 676px;
+    width: 630px;
     height: 225px;
     flex-shrink: 0;
     opacity: 0.3;
     background: #CEB7FF;
-    margin-left: 1000px;
-    margin-top: 55px;
+    margin-left: 1120px;
+    margin-top: 35px;
     padding: 10px;
     color: #000000;
     font-family: Bebas Neue;
@@ -1374,7 +797,7 @@ margin-top: 40px;
 }
 
 .content-box::placeholder{
-  color: #FFF;
+  color: #554e5f;
   font-family: Bebas Neue;
   font-size: 25px;
   font-style: normal;
@@ -1385,12 +808,12 @@ margin-top: 40px;
 .email-text{
     color: #FFF;
     font-family: Philosopher;
-    font-size: 38px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 830px;
-    margin-top: -585px;
+    margin-left: 1120px;
+    margin-top: -555px;
 
 }
 
@@ -1410,11 +833,11 @@ margin-top: 40px;
 .subject-text{
     color: #FFF;
     font-family: Philosopher;
-    font-size: 38px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 795px;
+    margin-left: 1120px;
     margin-top: 90px
 }
 
@@ -1433,11 +856,11 @@ margin-top: 40px;
 .content-text{
     color: #FFF;
     font-family: Philosopher;
-    font-size: 38px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 778px;
+    margin-left: 1120px;
     margin-top: 85px
 }
 
@@ -1465,7 +888,7 @@ margin-top: 40px;
   padding: 8px 20px;
   justify-content: center;
   align-items: center;
-  margin-left: 1545px;
+  margin-left: 1615px;
   margin-top: 15px;
 }
 
