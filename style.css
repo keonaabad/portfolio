@@ -336,8 +336,20 @@ text-align: left;
     width: 100%;
     height: 100%;
     z-index: -1;
-    mix-blend-mode: soft-light;
   }
+
+  .background-stars2 {
+    position: fixed;
+    margin-left:00px;
+    margin-top: 500px; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+
 /* End of Earth Planets and Spaceman */
 
 
@@ -418,177 +430,15 @@ text-align: left;
   margin-top: 2895px
 }
 
-
-.entire-projects-layout-block {
+.entire-projects-block{
   position: absolute;
   right: 6%;
-  top: 450%
-}
-
-.project-one-box2{
-  margin-top: 150px
-}
-
-.project-one-box3{
-  margin-top: 375px
-}
-
-.clear-box-behind-text {
-  width: 541px;
-  height: 160.884px;
-  flex-shrink: 0;
-  border: 2px solid #CEB7FF;
-  background: rgba(0, 0, 0, 0.30);
-}
-
-
-
-.project-description-text {
-  width: 526.619px;
-  height: 66px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 102.5%; 
-}
-
-.project-title-text {
-  width: 196.843px;
-  height: 35px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 102.5%; 
-}
-
-.project-title-placement {
-  margin-left: 160px;
-}
-
-
-
-.clear-box-behind-text {
-  margin-top: -145px;
-}
-
-
-
-.project-description-placement {
-  margin-top: -20px;
-}
-
-.shape-placement-hold {
-  margin-top: 9000px;
-}
-
-
-.entire-projects-layout-block2 {
-  position: absolute;
-  top: 60%; 
-}
-
-
-
-.clear-box-behind-text2 {
-  width: 541px;
-  height: 160.884px;
-  flex-shrink: 0;
-  border: 2px solid #CEB7FF;
-  background: rgba(0, 0, 0, 0.30);
-}
-
-.learn-more-box2 {
+  top: 450%;
   display: flex;
-  width: 130.377px;
-  height: px; 
-  padding: 12px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-  border-radius: 26px;
-  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+  flex-direction: column;
+  gap: 50px
 }
-
-.project-description-text2 {
-  width: 526.619px;
-  height: 66px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 102.5%; 
-}
-
-.project-title-text2 {
-  width: 196.843px;
-  height: 35px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 102.5%; 
-}
-
-.learn-more-text2 {
-  color: var(--text-white, #E8E8E8);
-  font-family: Alata;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.project-title-placement2 {
-  margin-left: 160px;
-}
-
-.learn-more-placement2 {
-  margin-left: 233px;
-  margin-top: -27px;
-}
-
-.clear-box-behind-text2 {
-  margin-top: -145px;
-}
-
-.learn-more-box2 {
-  margin-left: 181px;
-  margin-top: -52px;
-}
-
-.project-description-placement2 {
-  margin-top: -20px;
-}
-
-.shape-placement-hold2 {
-  margin-top: 9000px;
-}
-
-
-.entire-projects-layout-block3 {
-  position: absolute;
-  top: 53%;
-}
-
-
-
-.clear-box-behind-text3 {
+.project-one-box{
   width: 541px;
   height: 160.884px;
   flex-shrink: 0;
@@ -596,34 +446,12 @@ text-align: left;
   background: rgba(0, 0, 0, 0.30);
 }
 
-.learn-more-box3 {
-  display: flex;
-  width: 130.377px;
-  height: px; 
-  padding: 12px 20px;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  flex-shrink: 0;
-  border-radius: 26px;
-  background: linear-gradient(347deg, rgba(255, 255, 255, 0.00) 0%, rgba(63, 49, 98, 0.48) 99.48%);
-  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+.project-one-box:hover{
+  cursor: pointer;
+  background:  #ceb7ff22;
 }
 
-.project-description-text3 {
-  width: 526.619px;
-  height: 66px;
-  flex-shrink: 0;
-  color: #FFF;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 17px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 102.5%; 
-}
-
-.project-title-text3 {
+.project-title{
   width: 196.843px;
   height: 35px;
   flex-shrink: 0;
@@ -634,37 +462,105 @@ text-align: left;
   font-style: normal;
   font-weight: 400;
   line-height: 102.5%; 
+  margin-left: 150px
 }
 
-.learn-more-text3 {
-  color: var(--text-white, #E8E8E8);
-  font-family: Alata;
-  font-size: 12px;
+.project-description{
+  width: 500.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 103.5%; 
+  margin-bottom: 20px;
 }
 
-.project-title-placement3 {
-  margin-left: 160px;
+
+.project-two-box{
+  width: 541px;
+  height: 160.884px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
 }
 
-.learn-more-placement3 {
-  margin-left: 233px;
-  margin-top: -27px;
+.project-two-box:hover{
+  cursor: pointer;
+  background:  #ceb7ff22;
 }
 
-.clear-box-behind-text3 {
-  margin-top: -145px;
+.project-two-title{
+  width: 196.843px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+  margin-left: 150px
 }
 
-.learn-more-box3 {
-  margin-left: 181px;
-  margin-top: -52px;
+.project-two-description{
+  width: 500.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.5%; 
+  margin-bottom: 20px;
 }
 
-.project-description-placement3 {
-  margin-top: -20px;
+
+.project-three-box{
+  width: 541px;
+  height: 160.884px;
+  flex-shrink: 0;
+  border: 2px solid #CEB7FF;
+  background: rgba(0, 0, 0, 0.30);
+}
+
+.project-three-box:hover{
+  cursor: pointer;
+  background:  #ceb7ff22;
+}
+
+.project-three-title{
+  width: 196.843px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 102.5%; 
+  margin-left: 150px
+}
+
+.project-three-description{
+  width: 500.619px;
+  height: 66px;
+  flex-shrink: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 103.5%; 
+  margin-bottom: 20px;
 }
 /* End of Projects Section*/
 
@@ -677,7 +573,7 @@ text-align: left;
 
 .entire-contact-me-containter{
   position: absolute;
-  padding-bottom: 23.5%;
+  padding-bottom: 23.8%;
   top: 600%;
   right: 4%;
 
