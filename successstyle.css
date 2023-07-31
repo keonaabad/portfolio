@@ -9,74 +9,21 @@ body {
 
 }
 
-.project-info-container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 3%
+a{
+    text-decoration: none;
 }
 
-.project-name{
-    color: var(--text-white, #E8E8E8);
-    font-family: Philosopher;
-    font-size: 60px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.project-description{
-    color: var(--text-white, #E8E8E8);
-    font-family: Philosopher;
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 50%
-}
-
-.project-sub-description{
+.container{
     color: var(--text-white, #E8E8E8);
     font-family: Philosopher;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    width: 50%
+    margin-left: 5%
 }
 
-.photo-container{
-    width: 45%;
-    min-height: 45%;
-    border: 3px solid #CEB7FF;
-    background-size: 100%;
-    position: absolute;
-    right: 1%;
-    top: 23%
-
-}
-
-button{
-    border:none;
-    outline: none
-}
-
-a {
-    text-decoration: none; 
-    color: inherit;
-  }
-  
-
-.button-container{
-    position:absolute;
-    left: 755px;
-    top: 570px
-
-}
-
-.live,
-.code,
-.contact
-{
+.return-home{
     color: var(--text-white, #E8E8E8);
     font-family: Philosopher;
     font-size: 20px;
@@ -89,23 +36,12 @@ a {
     padding: 8px 20px;
     justify-content: center;
     align-items: center;  
+    margin-left: 70px;
 }
 
-.code{
-margin-left: 25px
-}
-
-.contact{
-    margin-left: 190px
-}
-
-.live:hover,
-.code:hover,
-.contact:hover{
-    cursor: pointer;
+.return-home:hover{
     background: var(--button-background, #745a94);
 }
-
 
 
 .background-stars {
@@ -127,6 +63,3 @@ margin-left: 25px
     height: 100%;
     z-index: -1;
   }
-
-
-
