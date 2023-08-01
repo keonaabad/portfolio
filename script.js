@@ -8,3 +8,10 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       });
     });
   });
+
+
+
+
+  //Hiding Nav Bar
+
+
