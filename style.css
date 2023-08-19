@@ -305,7 +305,7 @@ text-align: left;
 .tech-stack-container{
   position: absolute;
   display: flex;
-  left: 790px;
+  right: 13%;
   gap: 20px
 }
 
