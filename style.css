@@ -305,7 +305,7 @@ text-align: left;
 .tech-stack-container{
   position: absolute;
   display: flex;
-  right: 13%;
+  right: 22%;
   gap: 20px
 }
 
@@ -347,14 +347,14 @@ text-align: left;
   font-weight: 200px;
   margin-bottom: 25px;
   position: absolute;
-  right: 350px;
-  top: 680px
+  right: 315px;
+  top: 525px
 }
 
 .scroll-line{
   position: absolute;
-  right: 385px;
-  top: 720px;
+  right: 355px;
+  top: 565px;
 width: 2px;
 height: 356px;
 background: #a8a8a845;
