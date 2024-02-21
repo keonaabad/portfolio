@@ -10,8 +10,17 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 
 
-
+//make me a function to print the latest clothing line topics
+function printLatestClothingLineTopics() {
+  let topics = ["T-shirts", "Hoodies", "Jackets", "Pants", "Shorts", "Shoes"];
+  let list = document.createElement("ul");
+  topics.forEach(topic => {
+    let item = document.createElement("li");
+    item.textContent = topic;
+    list.appendChild(item);
+  });
 
   //Hiding Nav Bar
 
 
+}

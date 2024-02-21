@@ -309,11 +309,25 @@ text-align: left;
   gap: 20px
 }
 
+.tech-stack-container2{
+  position: absolute;
+  display: flex;
+  right: 22%;
+  margin-top: 85px;
+  gap: 20px
+}
+
 .html-box,
 .css-box,
 .javascript-box,
 .python-box,
-.figma-box{
+.figma-box,
+.cplus-box,
+.nodejs-box,
+.mongo-box,
+.reactjs-box,
+.tailwind-box 
+{
   width: 57.888px;
   height: 62.713px;
   transform: rotate(90.113deg);
@@ -326,7 +340,18 @@ text-align: left;
   text-align: center;
 }
 
+.tailwind-box svg {
+  position: absolute;
+  top: 7.4px;
+  right: 4.5px;
+ 
+}
+
 .tech-stack-container svg{
+  margin-top: 8px
+}
+
+.tech-stack-container2 svg{
   margin-top: 8px
 }
 
@@ -335,7 +360,12 @@ text-align: left;
 .css-box:hover,
 .javascript-box:hover,
 .python-box:hover,
-.figma-box:hover{
+.figma-box:hover,
+.cplus-box:hover,
+.nodejs-box:hover,
+.mongo-box:hover,
+.reactjs-box:hover,
+.tailwind-box:hover{
   background: var(--button-background, #ceb7ff94);
 }
 
@@ -348,13 +378,13 @@ text-align: left;
   margin-bottom: 25px;
   position: absolute;
   right: 315px;
-  top: 525px
+  top: 625px
 }
 
 .scroll-line{
   position: absolute;
   right: 355px;
-  top: 565px;
+  top: 665px;
 width: 2px;
 height: 356px;
 background: #a8a8a845;
@@ -485,17 +515,26 @@ background: #a8a8a845;
   margin-top: 555px
 }
 .about-me-block{
-    width: 42%;
-    min-height: 82%;
+    width: 605px;
+    height: 800px;
     display: flex; /* Use flexbox */
     flex-direction: column; /* Stack elements vertically */
     align-items: flex-start; /* Align children to the start (left) */
     border: 3px solid #CEB7FF;
     background: rgba(0, 0, 0, 0.30);
+    background-size: 605px;
     position: absolute;
     right: 6%;
     top: 150%
+}
 
+
+
+
+
+.about-me-block:hover style{
+  cursor: pointer;
+  opacity: 1%
 }
 
 
@@ -550,14 +589,12 @@ background: #a8a8a845;
 
 
 /* Projects Section*/
-.projects-section{
-  margin-top: 2895px
-}
 
+.projects-section,
 .entire-projects-block{
   position: absolute;
   right: 6%;
-  top: 450%;
+  top: 3000px;
   display: flex;
   flex-direction: column;
   gap: 50px
@@ -698,7 +735,7 @@ background: #a8a8a845;
 .entire-contact-me-containter{
   position: absolute;
   padding-bottom: 23.8%;
-  top: 600%;
+  top: 4000px;
   right: 4%;
 
 }
